@@ -1,7 +1,8 @@
 # parseconfiostoxr
 Parsing IOS-style configuration to XR-style configuration
 
-- project convert configuration ini menggunakan lib CiscoConfParse
+- project convert configuration ini menggunakan lib CiscoConfParse http://www.pennington.net/py/ciscoconfparse/index.html
+- install CiscoConfParse library dengan pip: pip install --upgrade ciscoconfparse *detail install: http://www.pennington.net/py/ciscoconfparse/installation.html#
 - simpan semua file python (.py) dalam satu folder & file iosconfig yang akan diconvert
 - untuk sementara script hanya dapat melakukan convert configurasi vrf dari ios ke ios-xr configurasi
 - RUN dengan format:

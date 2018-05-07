@@ -13,14 +13,19 @@ Parsing IOS-style configuration to XR-style configuration
  - iosvrfconfparse: function library untuk parsing vrf 
  
 ***next to do***
-create file:
+create Class:
 - iosintconfparse: function library untuk parsing interface
 - iosospfconfparse: function library untuk parsing router ospf
 - iosbgpconfparse: function library untuk parsing router bgp
 - iosstaticconfparse: function library untuk parsing router static
 
-add function di iostoxrparser:
+create Class:
+ - iosconftocsv: function library untuk parsing ios config ke csv
+ - xrconftoscv: function library untuk parsing xr config ke csv
+
+add function di class iostoxrparser:
 -tambah fungsi untuk parsing config interface > call function dari iosintconfparse
 -tambah fungsi untuk parsing config router ospf > call function dari iosospfconfparse
 -tambah fungsi untuk parsing config router bgp > call function dari iosbgpconfparse
 -tambah fungsi untuk parsing config router static > call function dari iosstaticconfparse
+
